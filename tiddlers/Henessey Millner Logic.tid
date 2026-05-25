@@ -1,0 +1,15 @@
+created: 20260525145001472
+modified: 20260525145219412
+tags: 
+title: Henessey Millner Logic
+type: text/vnd.tiddlywiki
+
+Language consists of
+$$\varphi, \varphi'::\phi_{\text{HML}} = \top | \lnot \varphi | \varphi \land \varphi' | \text{<a>} \varphi$$
+
+Can derive OR, relations, box modality ($$\text{[a]} \varphi = \lnot \text{<a>} \lnot \varphi$$)
+
+$$x \models \text{<a>} \top <=> \exists x', x \xrightarrow{a} x' \land x' \models \top <=> x \xrightarrow{a}$$
+
+
+Can be used to test [[Strong Bisimulation]], if [[Image Finite]]: $$\forall x, x' \in X, x {\overset{\leftrightarrow}{\_}} x' => \forall_{\varphi \in \phi_{\text{HML}}} (x \models \varphi  <=> x' \models \varphi)$$

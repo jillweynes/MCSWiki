@@ -1,0 +1,16 @@
+created: 20260525140353502
+modified: 20260525140607789
+tags: 
+title: Reachability
+type: text/vnd.tiddlywiki
+
+It is a [[Relation]], determining wether another state is reachable by a set [[Word]]
+
+Defined Inductively:
+Base:
+$$x \overset{\epsilon}{\twoheadrightarrow} x$$
+
+Inductive:
+If $$x \overset{w}{\twoheadrightarrow} x'$$ and $$x' \overset{a}{\rightarrow} x''$$
+
+Then $$x \overset{wa}{\twoheadrightarrow} x''$$

@@ -1,0 +1,13 @@
+created: 20260525135355612
+modified: 20260525140919356
+tags: 
+title: Equivalence Relation
+type: text/vnd.tiddlywiki
+
+A [[Relation]] such that
+
+it is reflexive: $$\forall x \in X (xRx)$$
+
+it is symmetric $$\forall x,y \in X (xRy => yRx)$$
+
+it is transitive $$\forall xyz ((xRy \times yRz) => xRz)$$

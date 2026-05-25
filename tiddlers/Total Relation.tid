@@ -1,0 +1,8 @@
+created: 20260525135256613
+modified: 20260525135514217
+title: Total Relation
+type: text/vnd.tiddlywiki
+
+Every possible two-element pair
+
+$$X \times Y = \{  (x,y)|x \in X \land y \in Y  \}$$

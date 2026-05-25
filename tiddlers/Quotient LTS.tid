@@ -1,0 +1,17 @@
+created: 20260525143457631
+modified: 20260525144533396
+tags: 
+title: Quotient LTS
+type: text/vnd.tiddlywiki
+
+If we have an [[LTS]], we can make a Quotient LTS:
+
+$$(X/_{\overset{\leftrightarrow}{\_}}, L, \rightarrow_{\overset{\leftrightarrow}{\_}})$$
+
+For all $$x, x', a$$ :
+
+If $$\exists y, y' \in X (x {\overset{\leftrightarrow}{\_}} y \land y \xrightarrow{a} y' \land x' {\overset{\leftrightarrow}{\_}} y')$$
+
+Then $$[x]_{\overset{\leftrightarrow}{\_}} \xrightarrow{a} [x]'_{\overset{\leftrightarrow}{\_}}$$
+
+A minimized LTS is the smallest quotient LTS

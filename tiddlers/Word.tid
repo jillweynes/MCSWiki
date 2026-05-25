@@ -1,0 +1,11 @@
+created: 20260525135822449
+modified: 20260525140021689
+tags: 
+title: Word
+type: text/vnd.tiddlywiki
+
+$$\epsilon$$ (empty word) ($$A^0 = \{ epsilon \}$$)
+
+$$A^*$$ is the set of finite words (Kleene's Star) ($$A^* = \bigcup_{n \in \mathscr{N}} A^n$$)
+
+$$A^{n+1} = A^n . A = \{ wa | w \in A^n \land a \in A \}$$

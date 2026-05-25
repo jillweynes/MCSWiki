@@ -1,0 +1,18 @@
+created: 20260525144608884
+modified: 20260525144941268
+tags: 
+title: Bisimulation Algorithm
+type: text/vnd.tiddlywiki
+
+It would calculate [[Strong Bisimulation]]
+
+$$\sim_3 \subseteq \sim_2 \subseteq \sim_1 \subseteq \sim_0$$
+
+Where $$\sim_0 = X \times X$$
+
+As soon as $$\sim_n = \sim_{n+1}$$ we have $$\overset{\leftrightarrow}{\_} = \sim_n$$
+
+For timestep $$\sim_{n+1}$$:
+$$\forall a \in L, x' \in X: x \xrightarrow{a} x' => \exists y' , y \xrightarrow{a} y' \land x' \sim_n y'$$
+
+Only works on [[Image Finite]] [[LTS]]s

@@ -1,0 +1,9 @@
+created: 20260525140313714
+modified: 20260525140349422
+tags: 
+title: Deterministic
+type: text/vnd.tiddlywiki
+
+$$\forall x', x'' \in X, a \in L | (x \xrightarrow{a} x' \land x \xrightarrow{a} x'') => x' = x''$$
+
+If there is to paths with the same letter, then their endpoint states must be the same

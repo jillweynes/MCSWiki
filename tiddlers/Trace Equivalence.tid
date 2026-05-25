@@ -1,0 +1,22 @@
+created: 20260525140828320
+modified: 20260525141700355
+tags: 
+title: Trace Equivalence
+type: text/vnd.tiddlywiki
+
+It is a [[Equivalence Relation]]
+
+A Trace is a [[Word]] that is valid in an LTS
+
+We first define a function trace, that returns all of the traces possible from a starting point
+
+$$\text{trace}(x) = \{ w \in L^* | \exists x' | x \overset{w}{\twoheadrightarrow} x' \}$$
+
+Trace set always contains $$\epsilon$$
+
+
+Then $$x \equiv_T y <=> \text{trace}(x) = \text{trace}(y)$$
+
+Breaks on nondeterministic paths
+
+[img[image_1771508129345_0.png]]

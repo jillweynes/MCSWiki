@@ -1,0 +1,18 @@
+created: 20260525135953321
+modified: 20260525144550561
+tags: 
+title: LTS
+type: text/vnd.tiddlywiki
+
+Labelled Transition System
+
+Generalization of Automata
+
+$$(X,A, \rightarrow)$$
+$$X$$ is a set of states
+$$A$$ is a set of actions (alphabet)
+$$\rightarrow \in X \times A \times X$$ (transition relation)
+
+$$(x,a,y) \in  \rightarrow $$ Becomes $$x \xrightarrow{a} y$$
+
+No initial state or acceptance
