@@ -7,7 +7,7 @@
     }
 
     img {
-        max-width: 40%;
+        max-width: 40% !important;
         height: auto;
         break-inside: avoid;
     }
