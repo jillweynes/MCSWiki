@@ -1,5 +1,5 @@
 created: 20260525195505472
-modified: 20260525200136977
+modified: 20260525201821053
 tags: 
 title: Algebra
 type: text/vnd.tiddlywiki
@@ -20,7 +20,7 @@ $$\Sigma -> \Sigma_A$$ ($$\Sigma_{PA} = \{ 0,a,s,m \} -> \Sigma_{APA} = \{  0,su
 
 [img[image_1772794325349_0.png]]
 
-A is a valid model of T if every axiom of T is valid in A
+A is a valid model of T if every [[Derivable]] axiom of T is valid in A
 
 Soundness: $$\forall_{s,t \in \tau(\Sigma)} T \vdash s=t => A \vDash s=t$$
 

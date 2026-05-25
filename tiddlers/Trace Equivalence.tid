@@ -1,5 +1,5 @@
 created: 20260525140828320
-modified: 20260525141700355
+modified: 20260525201853498
 tags: 
 title: Trace Equivalence
 type: text/vnd.tiddlywiki
@@ -17,6 +17,6 @@ Trace set always contains $$\epsilon$$
 
 Then $$x \equiv_T y <=> \text{trace}(x) = \text{trace}(y)$$
 
-Breaks on nondeterministic paths
+Breaks on paths that are not [[Deterministic]]
 
 [img[image_1771508129345_0.png]]
