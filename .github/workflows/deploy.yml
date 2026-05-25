@@ -30,7 +30,7 @@ jobs:
         run: npm i -g tiddlywiki
 
       - name: Build TiddlyWiki
-        run: tiddlywiki . --build static
+        run: tiddlywiki . --build index
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
