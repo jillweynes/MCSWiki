@@ -1,0 +1,19 @@
+@media print {
+
+    .tc-tiddler-frame {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin-bottom: 2em;
+    }
+
+    img {
+        max-width: 40%;
+        height: auto;
+        break-inside: avoid;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+
+}

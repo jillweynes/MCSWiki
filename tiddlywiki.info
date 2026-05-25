@@ -17,7 +17,7 @@
             "index.html",
             "text/plain",
             "--render",
-            "$:/core/templates/alltiddlers.template.html",
+            "$:/templates/print-all-nonimages",
             "allfiles.html",
             "text/plain"
         ],

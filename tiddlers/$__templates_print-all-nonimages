@@ -1,0 +1,7 @@
+<!-- This template is provided for backwards compatibility with older versions of TiddlyWiki -->
+
+<$set name="exportFilter" value="[!is[system]!type[image/png]!title<currentTiddler>sort[title]]">
+
+{{$:/core/templates/exporters/StaticRiver}}
+
+</$set>
