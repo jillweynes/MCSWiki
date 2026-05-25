@@ -1,5 +1,6 @@
 #!/bin/sh
 
 git restore --staged --worktree 'tiddlers/$__StoryList.tid' 2>/dev/null
+git restore --staged --worktree 'tiddlers/$__graph_Default.json' 2>/dev/null
 
 exit 0
