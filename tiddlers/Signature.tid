@@ -1,0 +1,11 @@
+created: 20260525193949498
+modified: 20260525194021600
+tags: 
+title: Signature
+type: text/vnd.tiddlywiki
+
+Written as $$\Sigma$$
+
+Contains elements $$(f,n)$$ with $$F$$ being a function an $$n$$ being its arity
+
+For example [[Peano Arithmetic]]  signature: $$\Sigma_{PA} = \{ (0,0), (a,2), (m,2), (s,1) \}$$

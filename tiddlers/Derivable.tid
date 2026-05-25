@@ -1,0 +1,13 @@
+created: 20260525195313663
+modified: 20260525195447558
+tags: 
+title: Derivable
+type: text/vnd.tiddlywiki
+
+Derive truths from axioms
+Derivability relation is smallest relation to $$\vdash \subseteq \tau(\Sigma) \times \tau(\Sigma)$$
+Satisfies Following: s=t derivable from E and $$T \vdash s=t$ if $\vdash_{T} s=t$ aka $s=t \in \vdash_T$$
+
+Informally connects (s,t) whenever can be found s=t
+
+[img[image_1772794477914_0.png]]

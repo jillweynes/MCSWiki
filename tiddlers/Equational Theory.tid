@@ -1,0 +1,11 @@
+created: 20260525193200747
+modified: 20260525194659443
+tags: 
+title: Equational Theory
+type: text/vnd.tiddlywiki
+
+An equational theory is a tuple $$(\Sigma, E)$$ of [[Signature]] and equations
+
+Equations in the format $$t=t'$$ s.t. $$t,t' \in \tau(\Sigma)$$ (within the set of [[Term]]s)
+
+For example [[Peano Arithmetic]]: $$E_{PA} = \{ a(x,0)=x, a(x,s(y))=s(a(x,y)) \}$$

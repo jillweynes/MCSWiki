@@ -1,0 +1,8 @@
+created: 20260525194623045
+modified: 20260525194646470
+title: Peano Arithmetic
+type: text/vnd.tiddlywiki
+
+Peano Arithmetic is a formal system for describing the natural numbers using a small set of symbols and logical rules.
+
+Our notes seem to define the functions: 0, addition, multiplication and successor

@@ -1,0 +1,29 @@
+created: 20260525195505472
+modified: 20260525200136977
+tags: 
+title: Algebra
+type: text/vnd.tiddlywiki
+
+Consists of a set A and a set of n-ary operations on A
+$$A = (A, \Sigma_A)$$
+
+To convert from an [[Equational Theory]]  ($$T = (\Sigma, E)$$) to an algebra we need a few things (example for [[Peano Arithmetic]]):
+
+1. Interpolation Function:
+$$\Sigma -> \Sigma_A$$ ($$\Sigma_{PA} = \{ 0,a,s,m \} -> \Sigma_{APA} = \{  0,succ,+,\times \}$$)
+
+2. Rewriting Function: 
+
+[img[image_1772794289049_0.png]]
+
+3. Logic Checker
+
+[img[image_1772794325349_0.png]]
+
+A is a valid model of T if every axiom of T is valid in A
+
+Soundness: $$\forall_{s,t \in \tau(\Sigma)} T \vdash s=t => A \vDash s=t$$
+
+Completness: $$\forall_{s,t \in \tau(\Sigma)} A \vDash s=t=> T \vdash s=t$$
+
+Often we only care about ground complete (only ground [[Term]]s)

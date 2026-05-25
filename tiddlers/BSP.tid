@@ -1,0 +1,28 @@
+created: 20260525200223025
+modified: 20260525201005740
+tags: 
+title: BSP
+type: text/vnd.tiddlywiki
+
+Basic Sequential Process
+
+An [[Algebra]], valid upto [[Strong Bisimulation]]
+
+Elements:
+
+* 0 is deadlock
+* 1 is empty process (sucesfull stop)
+* $$+$$ is choice operator
+* $$a.\_$$ is action prefix
+
+$$\Sigma_{BSP} = \{   (0,0),(1,0),(+,2)  \} \cup \{  (a._ ,1) | a \in A  \}$$
+
+Axioms:
+
+* Commutative $$x+y=y+x$$
+* Associative $$x+(y+z) = (x + y) + z$$
+* Idempotent $$x + x = x$$
+* Deadlock is the neutral element $$x+0 = x$$
+
+
+We can define an [[LTS]]: $$\{ C(BSP), A, \rightarrow, \downarrow  \}$$, with $$C(BSP)$$ being the set of closed [[Term]]s
