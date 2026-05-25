@@ -26,11 +26,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: npm init
-        run: npm init -y
+      # - name: npm init
+        # run: npm init -y
 
       - name: npm install tiddlywiki
-        run: npm i tiddlywiki
+        run: npm i -g tiddlywiki
 
       - name: Build TiddlyWiki
         run: tiddlywiki . --build static
