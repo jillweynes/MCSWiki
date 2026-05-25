@@ -1,0 +1,13 @@
+author: Flibbles
+core-version: >=5.3.7
+demo: http://flibbles.github.io/tw5-graph/
+dependents: 
+description: Lightweight and programmable graphing for Tiddlywiki
+list: readme settings
+name: Graph
+plugin-type: plugin
+source: https://github.com/flibbles/tw5-graph
+stability: STABILITY_2_STABLE
+title: $:/plugins/flibbles/graph
+type: application/json
+version: 1.7.1
