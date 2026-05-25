@@ -15,6 +15,10 @@
             "--render",
             "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
             "index.html",
+            "text/plain",
+            "--render",
+            "$:/core/templates/alltiddlers.template.html",
+            "allfiles.html",
             "text/plain"
         ],
         "static": [
