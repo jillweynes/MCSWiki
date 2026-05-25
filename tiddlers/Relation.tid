@@ -1,0 +1,9 @@
+created: 20260525134438158
+modified: 20260525134556950
+tags: 
+title: Relation
+type: text/vnd.tiddlywiki
+
+A relation is a subset of the [[TotalRelation]], containing a mapping of elements
+
+X R Y means (X,Y) is in the relation R
