@@ -1,10 +1,9 @@
 caption: Contents
 created: 20260525141837856
 list-after: $:/core/ui/SideBar/Open
-modified: 20260525142322965
+modified: 20260525152804959
 tags: $:/tags/SideBar
 title: TableOfContents
 type: text/vnd.tiddlywiki
 
-<<list-links "[!is[system]has[text]!type[image/png]!
-type[image/jpeg]!type[image/gif]!type[image/svg+xml]sort[title]]">>
+<<list-links "[!is[system]!type[image/png]!title<currentTiddler>sort[title]]">>

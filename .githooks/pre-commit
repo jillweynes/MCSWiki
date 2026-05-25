@@ -1,0 +1,5 @@
+#!/bin/sh
+
+git restore --staged --worktree 'tiddlers/$__StoryList.tid' 2>/dev/null
+
+exit 0
