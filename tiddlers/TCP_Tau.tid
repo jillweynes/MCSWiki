@@ -1,0 +1,21 @@
+created: 20260526124318083
+modified: 20260526124641161
+tags: 
+title: TCP_Tau
+type: text/vnd.tiddlywiki
+
+[[TCP]] with [[Tau Step]]s
+
+Everything we could possibly want out of an algebra
+
+[img[image_1779367693511_0.png]]
+
+''Also has an abstraction operator''
+
+$$\tau_I$$ turnes anything $$\in I$$ into a $$\tau$$ step
+
+[img[image_1779367797672_0.png]]
+
+Cannot encapsulate exiting tau steps
+
+No communication merge with tau steps, however we can left merge

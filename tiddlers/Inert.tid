@@ -1,0 +1,6 @@
+created: 20260526122703541
+modified: 20260526122845602
+title: Inert
+type: text/vnd.tiddlywiki
+
+A [[Tau Step]] ($$x \xrightarrow{\tau} x'$$) is inert iff x is [[Bisimilar|Strong Bisimulation]] to x'  

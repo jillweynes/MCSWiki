@@ -1,12 +1,12 @@
 created: 20260526114445741
-modified: 20260526115143351
+modified: 20260526121734094
 tags: 
 title: BCP
 type: text/vnd.tiddlywiki
 
 Basic Communicating Process 
 
-A [[Conservative Extension]] of [[BSP]]
+A Conservative Extension of [[BSP]]
 
 ''Adds composition operator $$\|$$''
 

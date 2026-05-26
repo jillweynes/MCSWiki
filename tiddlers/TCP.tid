@@ -1,0 +1,11 @@
+created: 20260526121950407
+modified: 20260526122108994
+tags: 
+title: TCP
+type: text/vnd.tiddlywiki
+
+Theory of Communicating Processes
+
+A Conservative Extension of [[BCP]] and [[TSP]]
+
+New Axiom: $$x \Vdash 0 = x \cdot 0$$

@@ -1,0 +1,15 @@
+created: 20260526122210271
+modified: 20260526123643932
+tags: 
+title: Abstraction
+type: text/vnd.tiddlywiki
+
+We want to render implementation at same level of abstraction as a specification to check equivalence
+
+[img[image_1779203793439_0.png]]
+
+We introduce a [[Tau Step]] as an (invisible/silent) action
+
+It is [[Inert]] when can be removed and suppressed
+
+To check equivalence with this, we introduce [[Strong Branching Bisimulation]]

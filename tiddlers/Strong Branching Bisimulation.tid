@@ -1,0 +1,13 @@
+created: 20260526122945983
+modified: 20260526123708475
+title: Strong Branching Bisimulation
+type: text/vnd.tiddlywiki
+
+It is an alternative [[Equivalence Relation]]
+
+[img[image_1779204429342_0.png]]
+
+Equivalence, inverse are branching bisimulation relations, however compositions may not be
+
+It is less restrictive than [[Strong Bisimulation]]
+$${\overset{\leftrightarrow}{\_}} \subset {\overset{\leftrightarrow}{\_}}_b$$

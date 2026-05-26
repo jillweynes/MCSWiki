@@ -1,0 +1,11 @@
+created: 20260526123500095
+modified: 20260526123723922
+tags: 
+title: Rooted Branching Bisimulation
+type: text/vnd.tiddlywiki
+
+A complex [[Equivalence Relation]]
+
+[[Strong Bisimulation]] for the first step, then [[Strong Branching Bisimulation]]
+
+$${\overset{\leftrightarrow}{\_}} \subset {\overset{\leftrightarrow}{\_}}_{rb} \subset {\overset{\leftrightarrow}{\_}}_b$$
