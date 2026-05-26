@@ -1,0 +1,6 @@
+created: 20260526143034008
+modified: 20260526143214956
+title: Rooted Weak Bisimulation
+type: text/vnd.tiddlywiki
+
+An alternative to [[Rooted Branching Bisimulation]], in which after the first step elements have [[Weak Bisimulation]]

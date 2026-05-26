@@ -1,0 +1,21 @@
+created: 20260526142346554
+modified: 20260526143307536
+tags: 
+title: CCS
+type: text/vnd.tiddlywiki
+
+Calculus of Communicating Systems
+
+[img[image_1779369591671_0.png]]
+
+$$\overline{\overline{a}} = a$$
+
+Actions split into names ( $$A$$ ) and conames ( $$\overline{A}$$ )
+
+Basically $$|_{CCS}$$ is communication if each name, coname pair is in the transition function
+
+For recursion, subsititution, like other process algebras
+
+Equivalence in [[Rooted Weak Bisimulation]]
+
+Not congruent for $$+$$ operator

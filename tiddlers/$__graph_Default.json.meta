@@ -1,7 +1,7 @@
 created: 20260525182920656
 filter: [!is[system]!type[image/png]!title<currentTiddler>!tag[$:/tags/SideBar]sort[title]]
 graph.edges: {}
-modified: 20260526123615515
+modified: 20260526143312895
 template: $:/plugins/flibbles/graph/templates/standard-graph
 title: $:/graph/Default
 type: application/json

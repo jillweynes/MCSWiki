@@ -1,0 +1,10 @@
+created: 20260526143501943
+modified: 20260526143610846
+title: Failure Equivalence
+type: text/vnd.tiddlywiki
+
+[img[image_1779370728270_0.png]]
+
+Pairs of [[Word]]s possible, and transitions we CANNOT make after following that path
+
+Subset of [[Trace Equivalence]]

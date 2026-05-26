@@ -1,0 +1,26 @@
+created: 20260526142632896
+modified: 20260526143452252
+tags: 
+title: CSP
+type: text/vnd.tiddlywiki
+
+Communicating Sequential Processes
+
+[img[image_1779370011381_0.png]]
+
+Note the action prefixing syntax change
+
+Internal choice only resolved by [[Tau Step]]
+
+External choice only resolved by observable action
+
+x internal y = $$\tau .x + \tau .y$$
+
+For communication
+# Turn communicating actions into c actions (to avoid restriction)
+# Do communication merge
+# Turn actions back into standard letter with translation function
+
+Recursion happens with a [[Tau Step]]
+
+Equivalence given by [[Failure Equivalence]]
