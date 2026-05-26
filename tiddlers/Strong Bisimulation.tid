@@ -1,5 +1,5 @@
 created: 20260525141322091
-modified: 20260525141706508
+modified: 20260526112529192
 tags: 
 title: Strong Bisimulation
 type: text/vnd.tiddlywiki
@@ -7,6 +7,10 @@ type: text/vnd.tiddlywiki
 It is a [[Equivalence Relation]] such that:
 
 $$\forall x, x', y \in X, a \in L | (x \xrightarrow{a} x' \land xRy) => \exists y' \in X | (y \xrightarrow{a} y' \land x' R y')$$
+
+and
+
+$$\forall x,y \in X; (x \downarrow \land xRy) => y \downarrow$$
 
 More restrictive than [[Trace Equivalence]] since it tells us when nondeterministic branch can be merged into a deterministic branch
 

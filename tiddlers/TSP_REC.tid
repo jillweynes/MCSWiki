@@ -1,0 +1,9 @@
+created: 20260526113931643
+modified: 20260526114207259
+tags: 
+title: TSP_REC
+type: text/vnd.tiddlywiki
+
+An [[Conservative Extension]] of [[TSP]] and [[BSP_REC]] 
+
+Recursion plus sequential composition allows for memory in recursive specifications

@@ -1,0 +1,8 @@
+created: 20260526121142819
+modified: 20260526121157522
+title: Left Merge
+type: text/vnd.tiddlywiki
+
+$$x \xrightarrow{a} x' => x \Vdash y \xrightarrow{a} x' || y$$
+
+[img[image_1777293125992_0.png]]

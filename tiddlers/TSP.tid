@@ -1,0 +1,15 @@
+created: 20260526113658323
+modified: 20260526114551073
+tags: 
+title: TSP
+type: text/vnd.tiddlywiki
+
+Theory of Sequential Processes 
+
+A [[Conservative Extension]] of [[BSP]]
+
+Adds in the sequential composition operator $$x \cdot y$$
+
+[img[image_1776175830910_0.png]]
+
+Valid upto [[Strong Bisimulation]]

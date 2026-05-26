@@ -1,0 +1,10 @@
+created: 20260526114256345
+modified: 20260526114313376
+title: Conservative Extension
+type: text/vnd.tiddlywiki
+
+$$\forall s,t \in \pi (\Sigma); T' \vdash s=t => T \vdash s=t$$
+
+Note usage of non-prime signature
+
+An [[Extension]] that does not change equality

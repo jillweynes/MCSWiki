@@ -1,0 +1,15 @@
+created: 20260526112623239
+modified: 20260526114236087
+tags: 
+title: BSP_REC
+type: text/vnd.tiddlywiki
+
+A [[Conservative Extension]] of [[BSP]]
+
+Added the axiom of $$\mu X.E = \mu t.E$$ (for each $$X = t \in E$$ and $$E \in Rec$$)
+
+[img[image_1776171195384_0.png]]
+
+Recursive specification has solution in process theory
+''IFF''
+We can find a conversion such that each recursive equation is valid up to bisimulation

@@ -1,0 +1,8 @@
+created: 20260526121219721
+modified: 20260526121251539
+title: Communication Merge
+type: text/vnd.tiddlywiki
+
+$$x \xrightarrow{a} x', y \xrightarrow{b} y', a,b \in dom(\delta)$$ ''=>'' $$x | y \xrightarrow{(a,b)} x' \| y'$$
+
+[img[image_1777293344284_0.png]]

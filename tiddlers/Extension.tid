@@ -1,0 +1,12 @@
+created: 20260526114324751
+modified: 20260526114352715
+title: Extension
+type: text/vnd.tiddlywiki
+
+$$T=(\Sigma, E)$$
+
+$$T'=(\Sigma ', E')$$
+
+T' extends T if $$\Sigma \subseteq \Sigma '$$ and $$E \subseteq E'$$
+
+Means if can be derived in T, valid in T'

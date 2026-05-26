@@ -1,0 +1,15 @@
+created: 20260526113008849
+modified: 20260526113555976
+tags: 
+title: Guarded Recursion
+type: text/vnd.tiddlywiki
+
+A guarded specification has at most one solution in [[BSP_REC]]
+
+An occurrence of $$x \in S$$ is guaded iff it has a subterm in the format $$a.t$$ ($$a \in A$$, $$t$$ is a BSP_REC term) such that this $$x$$ occurs in $$t$$
+
+a term is guarded iff every occurrence of a variable is guarded
+
+a specification is guarded iff every term is guarded
+
+A recursive specification is also guarded if it can be transformed into an equivalent guarded specification

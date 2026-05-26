@@ -1,0 +1,27 @@
+created: 20260526114445741
+modified: 20260526115143351
+tags: 
+title: BCP
+type: text/vnd.tiddlywiki
+
+Basic Communicating Process 
+
+A [[Conservative Extension]] of [[BSP]]
+
+''Adds composition operator $$\|$$''
+
+If no interaction, we interleave actions of x and y
+
+$$x=a.0, y=b.0$$
+
+$$x \| y = a.b.o + b.a.0$$
+
+We also have communication function: Y: AxA $$\rightharpoonup$$ A (partial function, defined on subset of domain)
+
+If combination of left and right side defined in communication function, can do communicating action
+
+We finally have encapsulation function, to //remove// unwanted transitions
+
+[img[image_1777292720088_0.png]]
+
+All congruent upto [[Strong Bisimulation]]
