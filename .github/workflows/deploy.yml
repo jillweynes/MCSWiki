@@ -57,6 +57,7 @@ jobs:
 
       - name: Build anki deck
         run:  |
+          source .venv/bin/activate
           python createpkg.py
           mv tiddlywiki.apkg output/MCS.apkg
 
