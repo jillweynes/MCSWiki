@@ -4,6 +4,8 @@
 
 [PDF Also Available](https://jillweynes.github.io/MCSWiki/allfiles.pdf)
 
+[Anki Deck Also Available](https://jillweynes.github.io/MCSWiki/MCS.apkg)
+
 ## Collaboration guide
 
 1. Clone the repository

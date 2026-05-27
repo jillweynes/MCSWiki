@@ -1,5 +1,5 @@
 created: 20260525190621593
-modified: 20260525191553693
+modified: 20260527165336611
 tags: $:/tags/SideBar
 title: About
 type: text/vnd.tiddlywiki
@@ -9,3 +9,5 @@ Wiki for the University of Sheffield: Modelling of Concurrent Systems
 This is a static copy of the site, for collaboration please follow the instructions in [[the github|https://github.com/jillweynes/MCSWiki]]
 
 For a printer-friendly pdf of all the definitions, see [[here|https://jillweynes.github.io/MCSWiki/allfiles.pdf]]
+
+For an anki deck of title-definition pairs, see [[here|https://jillweynes.github.io/MCSWiki/MCS.apkg]]
