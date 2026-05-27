@@ -34,6 +34,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y wkhtmltopdf
 
+      - name: Install python stuff
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install genanki beautifulsoup4
+
       - name: Build TiddlyWiki
         run: tiddlywiki . --build index
 
@@ -48,6 +54,11 @@ jobs:
             --margin-right 15mm \
             output/allfiles.html \
             output/allfiles.pdf
+
+      - name: Build anki deck
+        run:  |
+          python createpkg.py
+          mv tiddlywiki.apkg output/MCS.apkg
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

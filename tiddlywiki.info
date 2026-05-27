@@ -19,7 +19,14 @@
             "--render",
             "$:/templates/print-all-nonimages",
             "allfiles.html",
-            "text/plain"
+            "text/plain",
+            "--render",
+            ".",
+            "tiddlers.json",
+            "text/plain",
+            "$:/core/templates/exporters/JsonFile",
+            "exportFilter",
+            "[!is[system]!type[image/png]!tag[$:/tags/SideBar]]"
         ],
         "static": [
             "--render",
