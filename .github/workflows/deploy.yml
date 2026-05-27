@@ -58,7 +58,7 @@ jobs:
       - name: Build anki deck
         run:  |
           source .venv/bin/activate
-          python createpkg.py
+          python createpkg.py output/tiddlers.json
           mv tiddlywiki.apkg output/MCS.apkg
 
       - name: Upload Pages artifact
